@@ -11,7 +11,10 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBAction func adicionar(_ sender: Any) {
-        print("Alimento --")
+        let nome: String =  "churros"
+        let felicidade: String =  "5"
+
+        print("Comi \(nome) e fiquei com felicidade \(felicidade)")
     }
 }
 
